@@ -1,0 +1,19 @@
+{
+  "name": "customcli",
+  "version": "1.0.0",
+  "description": "- svakog dana u svakom pogledu sve vise napredujem ;)",
+  "main": "index.js",
+  "bin": "./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Ljiljak",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
+  }
+}
